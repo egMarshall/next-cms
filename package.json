@@ -1,8 +1,9 @@
 {
   "name": "curso04-nextjs-flow",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto do curso da Alura com Next.Js e CMS",
   "main": "index.js",
+  "author": "Érico Marshall",
   "scripts": {
     "start": "next start",
     "build": "next build",
@@ -11,11 +12,11 @@
   "dependencies": {
     "next": "^12.1.0",
     "react": "^17.0.2",
+    "react-datocms": "^7.0.1",
     "react-dom": "^17.0.2",
     "react-is": "^17.0.2",
     "styled-components": "^5.2.3"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC"
 }

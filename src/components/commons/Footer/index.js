@@ -1,6 +1,8 @@
-import { Box, Text, theme } from '../../../theme/components';
+import { Box, Text, theme } from "../../../theme/components";
 
 export function Footer() {
+  // const description = getCMSContent().globalContent?.globalFooter?.description;
+
   return (
     <Box
       tag="footer"
@@ -20,13 +22,14 @@ export function Footer() {
       >
         <Text
           styleSheet={{
-            justifyContent: 'center',
-            color: theme.colors.neutral.x000
+            justifyContent: "center",
+            color: theme.colors.neutral.x000,
           }}
         >
-          &copy; {new Date().getFullYear()} DevSoutinho. Todos os direitos reservados.
+          &copy; {new Date().getFullYear()} DevSoutinho. Todos os direitos
+          reservados.
         </Text>
       </Box>
     </Box>
-  )
+  );
 }
